@@ -1,5 +1,7 @@
-body {
+.background {
   background-color: #2e2d4c;
+  background-image: url(../images/background-foods-v4.png);
+  background-attachment: fixed;
 }
 
 .conteudo {
@@ -13,7 +15,7 @@ body {
 .cabecalho {
   text-align: center;
   color: #fff;
-  margin: 100px auto;
+  margin: auto;
   padding: 30px;
 }
 
