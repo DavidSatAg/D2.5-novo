@@ -108,3 +108,11 @@ body {
 .btn-inicio:hover {
   opacity: 1;
 }
+
+.footer {
+  position: relative;
+  padding: 120px;
+  background-color: #1b1a2f;
+  color: #fff;
+  text-align: center;
+}
