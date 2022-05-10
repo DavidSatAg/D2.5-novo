@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Lora", serif;
 }
@@ -25,7 +28,7 @@ body {
 }
 
 .logo img {
-  width: 220px;
+  width: 230px;
 }
 
 .navigation li {
@@ -81,7 +84,7 @@ body {
 
 .fotos img {
   border-radius: 8px;
-  width: 450px;
+  width: 420px;
   height: 240px;
   filter: grayscale(0.4);
 }
@@ -115,4 +118,70 @@ body {
   background-color: #1b1a2f;
   color: #fff;
   text-align: center;
+}
+
+.logotipo {
+  color: #2e2d4c;
+  position: absolute;
+  right: 50%;
+  z-index: 1;
+  transform: translateX(50%);
+  font-size: 1.8rem;
+  padding-top: 10px;
+}
+
+.logomarca.fundo {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin-right: 50%;
+  margin-top: -50px;
+  transform: translateX(50%) rotate(45deg);
+}
+.logo {
+  margin: 90px 0px 20px 0px;
+}
+
+.fonte--grande {
+  font-size: 55px;
+}
+
+.subtitle--color {
+  color: rgb(198, 198, 198);
+}
+
+h4 {
+  font-size: 20px;
+}
+
+@media (max-width: 720px) {
+  body {
+    position: absolute;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .fonte--grande {
+    font-size: 2.6rem;
+  }
+
+  .fonte--media {
+    font-size: 1.5rem;
+  }
+
+  .fonte--pequena {
+    font-size: 1.1rem;
+  }
+
+  .navigation li {
+    width: 130px;
+    font-size: 1.1rem;
+  }
+
+  .avatar {
+    width: 110px;
+  }
 }
